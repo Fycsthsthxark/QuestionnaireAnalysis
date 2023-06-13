@@ -1,0 +1,15 @@
+#*.sqlite3
+.idea/
+__pycache__/
+
+
+static/**
+!static/media/
+
+
+**/migrations/**
+
+!**/migrations/__init__.py
+
+
+test.py

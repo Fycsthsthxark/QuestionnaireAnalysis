@@ -1,0 +1,34 @@
+/* 公共css */
+
+@import "@/assets/fonts/public/Poppins/font.css";
+
+:root {
+    //  主题色
+    --color: #409EFF;
+
+    // 灰色背景色
+    --grayColor: rgba(247, 247, 247, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 按钮点击样式(在需要的按钮上添加btnFocus类) */
+.btnFocus {
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.btnActive {
+    transform: scale(0.9);
+    filter: opacity(50%);
+}
